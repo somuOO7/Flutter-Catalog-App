@@ -5,13 +5,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String greet = 'Hi';
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Catalog App'),
       ),
-      body: Center(child: Container(child: Text('$greet world'))),
+      body: Center(child: Container(child: Text('Home Page'))),
       drawer: Drawer(),
     );
   }
