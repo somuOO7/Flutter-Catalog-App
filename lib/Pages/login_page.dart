@@ -13,12 +13,12 @@ class LoginPage extends StatelessWidget {
               "assets/images/LoginImage.png",
               fit: BoxFit.cover,
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            Text("Welcome",
+            const Text("Welcome",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
             Padding(
@@ -26,18 +26,18 @@ class LoginPage extends StatelessWidget {
                   const EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
               child: Column(children: [
                 TextFormField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       hintText: "Enter username", label: Text('UserName')),
                 ),
                 TextFormField(
                   obscureText: true,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       hintText: "Enter password", label: Text('Password')),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20.0,
                 ),
-                ElevatedButton(onPressed: () {}, child: Text("Login"))
+                ElevatedButton(onPressed: () {}, child: const Text("Login"))
               ]),
             )
           ],
